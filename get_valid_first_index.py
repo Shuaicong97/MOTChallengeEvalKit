@@ -36,7 +36,7 @@ def main(root):
                 score = line[6]
 
                 if second_col_value not in first_occurrences:
-                    img_folder = os.path.join(root_folder, folder, 'img1')
+                    img_folder = os.path.join(root, folder, 'img1')
                     first_col_value, current_line_index = find_corresponding_image(img_folder, first_col_value,
                                                                                    res_file, current_line_index)
                     if first_col_value is None:

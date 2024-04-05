@@ -141,8 +141,8 @@ def print_jpg():
                 # 检查文件是否为 JPG 文件
                 if file.lower().endswith('.jpg'):
                     print(f"  JPG 文件: {file_path}")
-                    os.remove(file_path)
+                    # os.remove(file_path)
 
 
-# print(result)
+# print_jpg()
 
